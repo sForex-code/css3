@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+main{
+    margin: 25px auto;
+    box-sizing: border-box;
+    object-fit: contain;
+    border: 2px solid black;
+    display: flex;
+    width: 80%;
+    padding: 30px;
+    height: 90vh;
+}
+.sec1{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding: 10px 3rem;
+}
+.sec2{
+        width: 50%;
+        height: auto;
+}
+.sec2 img{
+    height: 100%;
+    width: 100%;
+}
+.div1{
+    display: flex;
+}
+.div1 .logo{
+    width: 85%;
+    display: flex;
+}
+.logo img{
+    width: 4em;
+    height: 4em;
+    margin: 0 16px;
+}
+.div1 aside {
+    margin: 10px 0;
+}
+.div1 aside button{
+    padding: 2px 0;
+    width: 60px;
+    border: none;
+    outline: none;
+    margin: 2px 0;
+    background-color: white;
+    font-size: x-small;
+}
+.div2{
+    display: flex;
+    height: 13vh;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.div2 h1{
+    font-size: 2rem;
+}
+.div2 div span:nth-child(1){
+    margin:0 5px;
+    color:rgb(94, 234, 94);
+    font-size: 1.7rem;
+}
+.div2 div span:nth-child(2){
+    margin:0 5px;
+    color:rgb(243, 69, 69);
+    font-size: 1.7rem;
+}
+.div2 div span:nth-child(3){
+    margin:0 5px;
+    color:rgb(47, 103, 224);
+    font-size: 1.7rem;
+}
+.div3 {
+    display: flex;
+    gap: 10px;
+}
+.div3 button{
+    text-transform: uppercase;
+    font-size: x-small;
+    padding: 1px 1.5px;
+    display: flex;
+    border-radius: 2px;
+    align-items: center;
+    background-color: white;
+    outline: none;
+    border: 1px solid black;
+}
+.div3 button:nth-child(1){
+    color:white;
+    border: none;
+    background-color: rgb(5, 5, 81);
+}
+#bitI,.box1>img,.box2>img{
+    width: 40px;
+    height: 40px;
+}
+.div4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box1, .box2{
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    width: 22px;
+    position: relative;
+    top: 7px;
+}
+.btnB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: rgb(70, 229, 42);}
